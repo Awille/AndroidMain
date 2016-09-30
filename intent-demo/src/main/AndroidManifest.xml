@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="tips.intentdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ExplicitActivity"/>
+        <!-- 响应隐式Intent的Activity的配置 -->
+        <activity android:name=".FilterActivity">
+            <intent-filter>
+                <!-- action和category的name内容都可以自定义 -->
+                <!-- action可以省略不写 -->
+                <action android:name="tips.intentdemo.DEMO_ACTION"/>
+                <!-- DEFAULT category不能省略，无论有没有其他的category -->
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="tips.intentdemo.DEMO_CATEGORY"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".FilterDataActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <!-- data标签用于指定Activity能够响应什么类型的数据 -->
+                <!--
+                    例如，在某个应用中要打开网址时，如果安装了多个浏览器，
+                    系统会弹出窗口，列出可用的浏览器，询问要使用哪个浏览器来打开链接，
+                    系统就是通过data标签知道这些应用是浏览器并且可以处理网址。
+                -->
+                <!-- 此处配置Activity可以响应http协议的链接 -->
+                <data android:scheme="http"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

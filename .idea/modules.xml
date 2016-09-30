@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidMain.iml" filepath="$PROJECT_DIR$/AndroidMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intent-demo/intent-demo.iml" filepath="$PROJECT_DIR$/intent-demo/intent-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley-demo/volley-demo.iml" filepath="$PROJECT_DIR$/volley-demo/volley-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley-master/volley-master.iml" filepath="$PROJECT_DIR$/volley-master/volley-master.iml" />
     </modules>

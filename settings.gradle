@@ -1,1 +1,1 @@
-include ':volley-demo', ':volley-master'
+include ':volley-demo', ':volley-master', ':intent-demo'
