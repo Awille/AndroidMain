@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="tips.activitydemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+            主Activity的label标签内容会成为显示在启动器中的应用名称
+            该label会覆盖application的label(默认使用application的label作为应用名称)
+         -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard">
+            <intent-filter>
+                <!-- 启动程序进入的主Activity -->
+                <action android:name="android.intent.action.MAIN"/>
+                <!-- Should be displayed in the top-level launcher. -->
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <!--
+                    如果要隐藏应用程序的启动器，只需为Activity添加data标签，并设置scheme属性为任意内容即可
+                    如果即需要启动器图标，又要使用scheme属性，新建一个intent-filter标签再添加scheme属性即可
+                 -->
+                <!--<data android:scheme="@string/app_name"/>-->
+            </intent-filter>
+        </activity>
+        <activity android:name=".OtherActivity">
+            <!--
+                如果为多个Activity同时设置了MAIN和LAUNCHER，则启动其中会出现多个启动图标
+                但要同时有MAIN和LAUNCHER才有效
+             -->
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN"/>-->
+            <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>
