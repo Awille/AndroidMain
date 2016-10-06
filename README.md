@@ -8,3 +8,7 @@ Android Tips!
 2016-09-30 Intent
 
 2016-10-01 Activity
+
+2016-10-05 Service
+
+
