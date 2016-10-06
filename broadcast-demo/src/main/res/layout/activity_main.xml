@@ -11,19 +11,19 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onSendStanderBroadcastButtonClick"
-        android:text="发送标准广播"/>
+        android:title="发送标准广播"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onSendOrderedBroadcastButtonClick"
-        android:text="发送有序广播"/>
+        android:title="发送有序广播"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onSendLocalBroadcastButtonClick"
-        android:text="发送本地广播"/>
+        android:title="发送本地广播"/>
 </LinearLayout>

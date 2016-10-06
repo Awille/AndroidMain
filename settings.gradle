@@ -1,1 +1,1 @@
-include ':volley-demo', ':volley-master', ':intent-demo', ':activity-demo', ':service-demo', ':broadcast-demo', ':notification-demo'
+include ':volley-demo', ':volley-master', ':intent-demo', ':activity-demo', ':service-demo', ':broadcast-demo', ':notification-demo', ':listview-demo'

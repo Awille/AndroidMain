@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="FilterDataActivity"
+        android:title="FilterDataActivity"
         android:textSize="24sp"/>
 
     <TextView
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="8dp"
-        android:text="虽然声明了data标签，但是实际上该Activity中并没有实现处理data的功能"
+        android:title="虽然声明了data标签，但是实际上该Activity中并没有实现处理data的功能"
         android:textSize="24sp"/>
 
 </LinearLayout>

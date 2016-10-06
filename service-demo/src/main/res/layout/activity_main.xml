@@ -11,41 +11,41 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onStartServiceButtonClick"
-        android:text="启动服务"/>
+        android:title="启动服务"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onStopServiceButtonClick"
-        android:text="停止服务"/>
+        android:title="停止服务"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onBindServiceButtonClick"
-        android:text="绑定服务"/>
+        android:title="绑定服务"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onUnbindServiceButtonClick"
-        android:text="解绑服务"/>
+        android:title="解绑服务"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onBinderMethodButtonClick"
-        android:text="调用方法"/>
+        android:title="调用方法"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onStartIntentServiceButtonClick"
-        android:text="启动IntentService"/>
+        android:title="启动IntentService"/>
 
 </LinearLayout>

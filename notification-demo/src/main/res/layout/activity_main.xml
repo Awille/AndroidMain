@@ -10,13 +10,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onSendNotificationButtonClick"
-        android:text="发送通知"/>
+        android:title="发送通知"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onCancelNotificationButtonClick"
-        android:text="取消通知"/>
+        android:title="取消通知"/>
 
 </LinearLayout>

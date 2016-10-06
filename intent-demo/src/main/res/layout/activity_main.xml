@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Main Activity"
+        android:title="Main Activity"
         android:textSize="24sp"/>
 
     <Button
@@ -17,26 +17,26 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onExplicitButtonClick"
-        android:text="显式Intent"/>
+        android:title="显式Intent"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onFilterButtonClick"
-        android:text="隐式Intent"/>
+        android:title="隐式Intent"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onDataFilterButtonClick"
-        android:text="隐式Intent - data"/>
+        android:title="隐式Intent - data"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="onDataExtraButtonClick"
-        android:text="使用Intent传递数据"/>
+        android:title="使用Intent传递数据"/>
 </LinearLayout>
