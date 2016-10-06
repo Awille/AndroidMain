@@ -3,6 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/activity-demo/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/intent-demo/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/service-demo/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/volley-demo/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>

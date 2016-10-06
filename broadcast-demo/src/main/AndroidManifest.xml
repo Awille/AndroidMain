@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="tips.broadcastdemo">
+
+    <!-- 声明监听开机启动完成的广播的权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name=".DemoBroadcastReceiver">
+            <intent-filter>
+                <!-- 监听开机启动完成的广播 -->
+                <!--
+                    程序安装在手机内置存储中才有效，安装在扩展存储中无效
+                    因为手机开机完成后才会加载扩展存储，此时广播早已发送完毕
+                 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+
+            <intent-filter>
+                <!-- 接受自定义标准广播的广播接收器，可以在Java代码中动态注册 -->
+                <action android:name="tips.broadcastdemo.DEMO_STANDER_BROADCAST_RECEIVER"/>
+            </intent-filter>
+
+            <intent-filter android:priority="100">
+                <!-- 接受自定义有序广播的广播接收器，可以在Java代码中动态注册 -->
+                <!-- 使用android:priority属性设置接受器的优先级 -->
+                <action android:name="tips.broadcastdemo.DEMO_ORDERED_BROADCAST_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
