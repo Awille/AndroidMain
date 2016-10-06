@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/activity-demo" />
             <option value="$PROJECT_DIR$/broadcast-demo" />
             <option value="$PROJECT_DIR$/intent-demo" />
+            <option value="$PROJECT_DIR$/notification-demo" />
             <option value="$PROJECT_DIR$/service-demo" />
             <option value="$PROJECT_DIR$/volley-demo" />
             <option value="$PROJECT_DIR$/volley-master" />
