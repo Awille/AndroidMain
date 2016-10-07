@@ -21,4 +21,6 @@ Android Tips!
 
 2016-10-07 SQLiteDatabase in sqlite-demo
 
+2016-10-07 SharedPreferences in sharedpreferences-demo
+
 
