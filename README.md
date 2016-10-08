@@ -27,4 +27,29 @@ Android Tips!
 
 2016-10-08 Fragment in fragment-demo
 
+# Others
 
+### Android系统架构
+
+层次 | 名称                              | 功能
+:----|:---------------------------------|:---------------
+4    | Applications                     | 应用程序       
+3    | Application <br/> Framework      | 各种API        
+2    |Libraries & <br/> Android Runtime | 各种库 & 虚拟机
+1    | Linux Kernel                     | 各种硬件驱动    
+
+### Android系统版本代号及API等级
+
+名称                | 版本号 | API Level
+:-------------------|:------|:--------------
+Nougat              | 7.0   | 24
+Marshmallow	        | 6.0	| 23
+Lollipop	        | 5.1	| 22
+Lollipop	        | 5.0	| 21
+KitKat	            | 4.4.x	| 19
+Jelly Bean        	| 4.3.x	| 18
+Jelly Bean        	| 4.2.x	| 17
+Jelly Bean	        | 4.1.x	| 16
+Ice Cream Sandwich	| 4.0.x	| 14、15; NDK 8
+Gingerbread	        | 2.3.x	| 9、10
+Froyo	            | 2.2.x	| 8
