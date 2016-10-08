@@ -5,11 +5,13 @@
       <root url="jar://$PROJECT_DIR$/broadcast-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/intent-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/listview-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/multithread-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/network-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/notification-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/service-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/volley-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/multithread-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/sharedpreferences-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/sqlite-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/volley-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/activity-demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res" />
@@ -17,6 +19,7 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../android-sdk-linux/extras/android/m2repository/com/android/support/appcompat-v7/24.2.1/appcompat-v7-24.2.1-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../android-sdk-linux/extras/android/m2repository/com/android/support/appcompat-v7/24.2.1/appcompat-v7-24.2.1-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../android-sdk-linux/extras/android/m2repository/com/android/support/appcompat-v7/24.2.1/appcompat-v7-24.2.1-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/../../../android-sdk-linux/extras/android/m2repository/com/android/support/appcompat-v7/24.2.1/appcompat-v7-24.2.1-sources.jar!/" />
