@@ -23,4 +23,6 @@ Android Tips!
 
 2016-10-07 SharedPreferences in sharedpreferences-demo
 
+2016-10-08 HttpURLConnection in network-demo
+
 
