@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/service-demo/service-demo.iml" filepath="$PROJECT_DIR$/service-demo/service-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharedpreferences-demo/sharedpreferences-demo.iml" filepath="$PROJECT_DIR$/sharedpreferences-demo/sharedpreferences-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlite-demo/sqlite-demo.iml" filepath="$PROJECT_DIR$/sqlite-demo/sqlite-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view-demo/view-demo.iml" filepath="$PROJECT_DIR$/view-demo/view-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley-demo/volley-demo.iml" filepath="$PROJECT_DIR$/volley-demo/volley-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley-master/volley-master.iml" filepath="$PROJECT_DIR$/volley-master/volley-master.iml" />
     </modules>

@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/service-demo" />
             <option value="$PROJECT_DIR$/sharedpreferences-demo" />
             <option value="$PROJECT_DIR$/sqlite-demo" />
+            <option value="$PROJECT_DIR$/view-demo" />
             <option value="$PROJECT_DIR$/volley-demo" />
             <option value="$PROJECT_DIR$/volley-master" />
           </set>
