@@ -29,6 +29,8 @@ Android Tips!
 
 2016-10-08 ContentProvider in contentprovider-demo
 
+2016-10-11 View & ViewGroup in view-demo
+
 
 # Others
 
