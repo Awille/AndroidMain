@@ -5,30 +5,16 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
-import android.view.MotionEvent;
 import android.view.View;
 
 /**
  * 简单的自定义View内容示例。
- * <p>
- * <p>
- * 关于ViewGroup： <br/>
- * ViewGroup管理其内部的View。
- * <p>
- * ViewGroup的测量： <br/>
- * 若要支持wrap_content属性，ViewGroup也必须重写onMeasure()方法。
- * 当ViewGroup的大小被设置为wrap_content时，ViewGroup会遍历所有子View，
- * 通过调用子View的测量方法来获取子View的大小，进而决定自己的大小。 <br/>
- * 子View测量完成后，要对子View进行布局管理，同样是遍历子View并调用其布局方法，
- * 来决定其显示的位置。可以重写onLayout()方法来控制布局。
- * <p>
- * ViewGroup的绘制： <br/>
- * ViewGroup中通常没有什么需要绘制的内容，在没有指定ViewGroup的背景色时，
- * 不会调用ViewGroup的onDraw()方法。
  */
 public class DemoView extends View {
 
     private Paint mPaint = new Paint();
+    private int mRadius = 1;//onDraw()方法中的圆半径
+    private boolean expand = true;//true:圆半径增长，false:圆半径缩减
 
     public DemoView(Context context) {
         super(context);
@@ -77,21 +63,34 @@ public class DemoView extends View {
      */
     @Override
     protected void onDraw(Canvas canvas) {
-
-        super.onDraw(canvas);
-
         /*
         * Canvas作为画布，Paint作为画笔，设置好Paint的各种属性后，
         * 调用Canvas的drawXxx()方法绘制图形。
         * */
+        super.onDraw(canvas);
 
-        mPaint.setColor(Color.RED);
-        mPaint.setTextSize(64);
-        canvas.drawText("画一个绿色的圆", 50, 60, mPaint);
+        int xy = canvas.getWidth() / 2;//中心坐标
+        //控制缩放
+        if (expand) {
+            mRadius++;
+            if (mRadius >= ConversionTools.px2dp(getContext(), xy)) {
+                expand = false;
+            }
+        } else {
+            mRadius--;
+            if (mRadius <= ConversionTools.px2dp(getContext(), 1)) {
+                expand = true;
+            }
+        }
+        //画圆
         mPaint.setColor(Color.GREEN);
-        canvas.drawCircle(300, 300, 200, mPaint);
+        canvas.drawCircle(xy, xy, ConversionTools.dp2px(getContext(), mRadius), mPaint);
 
-
+//        /**通知View进行重绘，该方法具有多个重载*/
+//        invalidate();
+        /**定时通知View进行重绘，该方法具有多个重载*/
+        //每次重绘都会调用onDraw()方法
+        postInvalidateDelayed(5);
     }
 
     /**
@@ -102,23 +101,6 @@ public class DemoView extends View {
 
         /*即使重写了该方法，也应该调用父类的方法*/
         super.onFinishInflate();
-    }
-
-    /**
-     * 确定View及其子控件的位置。
-     */
-    @Override
-    protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
-
-        super.onLayout(changed, left, top, right, bottom);
-    }
-
-    /**
-     * View的触摸事件
-     */
-    @Override
-    public boolean onTouchEvent(MotionEvent event) {
-        return super.onTouchEvent(event);
     }
 
     /**
