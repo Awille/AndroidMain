@@ -43,18 +43,29 @@ Android Tips!
 2    |Libraries & <br/> Android Runtime | 各种库 & 虚拟机
 1    | Linux Kernel                     | 各种硬件驱动    
 
+### 屏幕参数
+
+密度    | 密度值 | 分辨率     | dp:px
+:------|:-------|:----------|:------
+ldpi   | 120    | 240×320   | 1:0.75
+mdpi   | 160    | 320×480   | 1:1   
+hdpi   | 240    | 480×800   | 1:1.5
+xhdpi  | 320    | 720×1280  | 1:2   
+xxhdpi | 480    | 1080×1920 | 1:3   
+
+
 ### Android系统版本代号及API等级
 
 名称                | 版本号 | API Level
 :-------------------|:------|:--------------
 Nougat              | 7.0   | 24
-Marshmallow	        | 6.0	| 23
-Lollipop	        | 5.1	| 22
-Lollipop	        | 5.0	| 21
+Marshmallow	        | 6.0	  | 23
+Lollipop	          | 5.1	  | 22
+Lollipop	          | 5.0	  | 21
 KitKat	            | 4.4.x	| 19
 Jelly Bean        	| 4.3.x	| 18
 Jelly Bean        	| 4.2.x	| 17
 Jelly Bean	        | 4.1.x	| 16
 Ice Cream Sandwich	| 4.0.x	| 14、15; NDK 8
 Gingerbread	        | 2.3.x	| 9、10
-Froyo	            | 2.2.x	| 8
+Froyo	              | 2.2.x	| 8
