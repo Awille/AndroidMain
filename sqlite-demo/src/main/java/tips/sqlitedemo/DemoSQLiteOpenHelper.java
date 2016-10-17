@@ -72,7 +72,7 @@ public class DemoSQLiteOpenHelper extends SQLiteOpenHelper {
                 //从第1版更新到第2版，新增一个数据表
                 db.execSQL(Constant.CREATE_TABLE_2);
                 if (newVersion == 2) {
-                    //最高版本就是第2版，不应该继续执行升级到第2版的操作，下同
+                    //最高版本就是第2版，不应该继续执行升级到第3版的操作，下同
                     break;
                 }
             case 2:
