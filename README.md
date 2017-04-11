@@ -58,7 +58,8 @@ xxhdpi | 480    | 1080×1920 | 1:3
 
 名称                | 版本号 | API Level
 :-------------------|:------|:--------------
-Nougat              | 7.0   | 24
+Nougat              | 7.1   | 25
+Nougat              | 7.0   | 24
 Marshmallow	        | 6.0	  | 23
 Lollipop	          | 5.1	  | 22
 Lollipop	          | 5.0	  | 21
