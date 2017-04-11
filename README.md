@@ -3,6 +3,10 @@ Android Tips!
 
 # CHANGE LOG
 
+2017-04-11 Add official link of API level in README
+
+2017-04-11 Add new API level 7.1 in README
+
 2016-09-29 Volley in volley-demo
 
 2016-09-30 Intent in intent-demo
@@ -55,6 +59,8 @@ xxhdpi | 480    | 1080×1920 | 1:3
 
 
 ### Android系统版本代号及API等级
+
+> https://source.android.com/source/build-numbers
 
 名称                | 版本号 | API Level
 :-------------------|:------|:--------------
